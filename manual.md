@@ -32,3 +32,18 @@
       ->create.blade.php
       ->edit.blade.php
       ->index.blade.php
+
+
+PASOS PARA PONER A FUNCIONAR EL PROYECTO
+
+1. Iniciar los servicios de Laragon.
+2. Clonar el repositorio en la ruta 'C:\laragon\www'
+NOTA: Ejecutar los siguientes comandos en la terminal
+    -> composer install
+    -> cp .env.example .env
+    -> php artisan key:generate
+    -> php artisan migrate
+    -> Would you like to create it? (yes/no) yes
+    -> npm install
+    -> npm run dev
+    -> npm run build
